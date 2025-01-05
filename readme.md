@@ -16,4 +16,8 @@
      - Inside js or jsx file function name should start with capital letter.
      - In vite main js file is linked in index.html document directly
      - In CRA have some "react-scripts" dependency that will link main js file to index.html file.
+
+## Virtual DOM , Reconcilation and Fiber-Architecture
+ [Click Here for Notes](https://github.com/acdlite/react-fiber-architecture)
+
         
