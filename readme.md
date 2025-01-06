@@ -20,4 +20,27 @@
 ## Virtual DOM , Reconcilation and Fiber-Architecture
  [Click Here for Notes](https://github.com/acdlite/react-fiber-architecture)
 
-        
+
+ ## Props
+ ```javascript	
+ const App = () => {
+    return (
+        <div>
+            <Greet name="John" age = 23/> // props = {name: 'John', age:23}
+            <Greet name="Jane"  />
+        </div>
+    );
+};
+
+
+
+
+ const Greet = ({ name ,age=20 }) => { //destructured or we can receive as props (object) or any name given in param 
+        //age = 20 is the default value if we dont pas while calling
+    return (
+        <div>
+            Hello, {name}!
+        </div>
+    );
+};       
+//

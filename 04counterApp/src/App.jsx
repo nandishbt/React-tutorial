@@ -10,6 +10,21 @@ function App() {
 
     if(count < 20){
       setCount(count + 1)
+      setCount(count + 1)
+      setCount(count + 1)
+      setCount(count + 1)
+
+      // only 1 setcount func is executed due to fibre diiding algo these are all sent in batches and will overwrite
+
+      setCount(prev => prev + 1)
+      setCount(prev => prev + 1)
+      setCount(prev => prev + 1)
+      setCount(prev => prev + 1)
+
+      // all the 4 setCount func are executed
+
+
+
     }
 
   }
