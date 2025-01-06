@@ -43,4 +43,19 @@
         </div>
     );
 };       
-//
+
+
+```
+
+# React Hooks
+## useState()
+        state is nothing but a data it is used in our UI at various parts and when we update the state,
+        In Our UI will be updated accordingly at all the places immediately.
+        This is the main advantage of the react that it will react faster on state changes
+
+        It is a Hook in react which is used to manage state in functional component. 
+        useState() returns a pair of values: the current state and a function to update it in the form 
+        of array and we will destrucure it and use it.
+
+```javascript
+const [state, setState] = useState(initialState)
