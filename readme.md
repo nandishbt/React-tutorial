@@ -59,3 +59,42 @@
 
 ```javascript
 const [state, setState] = useState(initialState)
+
+```
+
+## useEffect()
+        useEffect hook is used to perform side effects in functional components.
+        It is called after every render.
+
+```javascript	
+ useEffect(Cb,[dependency]);
+
+ Cb will be executed when component is mounted and also when dependencies are changed
+
+
+ ```
+
+ ## useCallback()
+       useCallback hook is used for optmizations and caching,
+       useCallback lets you cache a function definition between re-renders.
+
+       Caching a function in React refers to memoizing a function so that it is not 
+       re-created unnecessarily during re-renders of a component. This can improve 
+       performance by preventing redundant computations or avoiding the re-creation of 
+       function instances unless their dependencies change.
+
+```javascript	
+const myFun =  usecallback(Cb,[dependency]);
+
+ Cb will be executed when myFun is called and also when dependencies are changed
+
+ ```
+
+ ## useRef()
+
+        useRef can be used to directly reference a DOM element in a React functional component.
+```javascript
+const myRef = useRef(null)
+
+null is the initial value of reference
+
