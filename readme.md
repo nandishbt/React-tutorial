@@ -97,4 +97,8 @@ const myFun =  usecallback(Cb,[dependency]);
 const myRef = useRef(null)
 
 null is the initial value of reference
+```
+## Link vs NavLink
+    NavLink will have isActive attribute.
+    Link is same as anchor tag but the whole page is lot reloading.
 
